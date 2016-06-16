@@ -1,0 +1,35 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "R Template Build",
+  "main": "index.html",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-connect": "^4.0.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veratechnz/R-NEW-PUB.git"
+  },
+  "author": "Jared",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veratechnz/R-NEW-PUB/issues"
+  },
+  "homepage": "https://github.com/veratechnz/R-NEW-PUB#readme"
+}

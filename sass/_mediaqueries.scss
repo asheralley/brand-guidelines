@@ -1,0 +1,19 @@
+
+
+@media (max-width: 650px) {
+	header {
+		display: none;
+	}
+
+	.content {
+		width: 100%;
+	}
+}
+
+@media (max-width: 800px) {
+	.section-content {
+		display: flex;
+		flex-direction: column;
+		
+	}
+}
