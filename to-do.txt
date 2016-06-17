@@ -1,4 +1,9 @@
 To Do:
 
-Spacing/layout
+- Logo
+- Layout
+- Heading sizes
+- Bottom arrow
+- 3 Functions
+
 

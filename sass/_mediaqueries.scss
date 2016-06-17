@@ -1,3 +1,31 @@
+// Media Queries
+
+@media (max-width: 800px) {
+	.section-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.color-content,
+	.layout-content,
+	.logo-section-content {
+		width: 100%;
+		margin: $center;
+	}
+
+	.logo-img,
+	.layout-img,
+	.color-img {
+		width: 85%;
+		margin: $center;
+	}
+
+	.section-title{
+		justify-content: flex-start;
+	}
+}
+
+
 
 
 @media (max-width: 650px) {
@@ -7,13 +35,5 @@
 
 	.content {
 		width: 100%;
-	}
-}
-
-@media (max-width: 800px) {
-	.section-content {
-		display: flex;
-		flex-direction: column;
-		
 	}
 }

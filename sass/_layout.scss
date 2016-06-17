@@ -88,11 +88,17 @@ h3 {
 
 .section {
 	height: 100vh;
+}
 
+.section-title {
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
 }
 
 .section-content {
 	padding: 1em;
+	margin: auto;
 	display: flex;
 	justify-content: space-between;
 }
@@ -106,6 +112,7 @@ h3 {
 	width: 50%;
 	position: relative;
 	right: 37px;
+	cursor: pointer;
 }
 
 .layout-img img,
@@ -121,11 +128,16 @@ h3 {
 	width: 50%;
 }
 
+.color-section {
+	position: relative
+}
+
 .btt {
 	text-align: center;
 	font-size: 3.5em;
-	position: relative;
+	position: absolute;
 	bottom: 0;
+	width: 100%;
 }
 
 
